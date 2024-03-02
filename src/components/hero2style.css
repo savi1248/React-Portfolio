@@ -1,0 +1,39 @@
+.hero-img{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 60vh;
+    position: relative;
+    padding: 220px;
+}
+.hero-img::before{
+     content: '';
+     background: url('https://images.wallpaperscraft.com/image/single/laptop_keyboard_glow_170138_1920x1080.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+}
+@media screen  and (max-width:640px){
+    .hero-img h1{
+        font-size: 2rem;
+    }
+}

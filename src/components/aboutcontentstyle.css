@@ -1,0 +1,40 @@
+.about{
+    width: 100%;
+    margin: 1rem 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+text-align: center;
+margin: auto;
+padding: 1rem;
+max-width: 350px;
+}
+.about p{
+    margin: 1.2rem 0;
+}
+.about .right{
+    max-width: 700px;
+}
+.right .img-container{
+    
+    text-align: center;
+}
+.right .img{
+    /* max-width: 700px;
+  max-height: 700px; */
+  width:650px;
+  height:500px;
+  margin: 0 0rem 0 0;
+}
+@media screen and (max-width:640px) {
+    .right .img{
+        margin: 0 0 0 12px;
+     
+    }
+}
+
+
