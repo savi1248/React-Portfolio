@@ -1,31 +1,52 @@
 import React from 'react'
 import './aboutcontentstyle.css'
-import { Link } from 'react-router-dom'
-
-import react2 from '../assets/react2.png'
-
 const Aboutcontent = () => {
     return (
-        <div className='about'>
-            <div className='left'>
-                <h1>About me.</h1>
-                <p>Im a react front-end devoloper.
-                    I create a responsive secure websites for my clients.</p>
-                <Link to='/contact' >
-                    <button className='btn'>CONTACT</button>
-                </Link>
-            </div>
-            <div className='right'>
-                <div className='img-container'>
-                    {/* <div className='img-stack top'>
-                        <img src={react1} className='img' alt="true" />
-                    </div> */}
-                    <div className='img-stack bottom'>
-                        <img src={react2} className='img' alt="true" />
+        <div className='skills'>
+
+            <div className='about-right'>
+                <h1>skills</h1>
+                <div className='line'>
+                    <div className='info'>
+                        <span>HTML</span>
+                        <span>90%</span>
                     </div>
+                    <div className='bars html'></div>
                 </div>
+                <div className='line'>
+                    <div className='info'>
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div className='bars css'></div>
+                </div>
+                <div className='line'>
+                    <div className='info'>
+                        <span>JAVASCRIPT</span>
+                        <span>77%</span>
+                    </div>
+                    <div className='bars js'></div>
+                </div>
+
+                <div className='line'>
+                    <div className='info'>
+                        <span>REACT JS</span>
+                        <span>70%</span>
+                    </div>
+                    <div className='bars react'></div>
+                </div>
+                <div className='line'>
+                    <div className='info'>
+                        <span>PYTHON</span>
+                        <span>60%</span>
+                    </div>
+                    <div className='bars python'></div>
+                </div>
+
             </div>
-      </div>
+
+
+        </div>
     )
 }
 

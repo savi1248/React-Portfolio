@@ -1,40 +1,80 @@
-.about{
-    width: 100%;
-    margin: 1rem 0;
-    display:flex;
-    justify-content: center;
+.skills {
+    width: 60%;
+    padding: 50px 0;
+    margin:0 20%;
+    padding:2rem 8rem;
+}
+
+.about-right h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5%;
+  padding: 30px 0;
+  }
+.about-right {
+    flex: 1;
+    margin-left: 30px;
+    color:#fff;
+}
+.about-right .line {
+    margin-bottom: 30px;
+   
+    padding: 0px;
+}
+.about-right .info {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.about-right .info span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.about-right .bars {
+    background-color: #000;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #0ef;
+    border-radius: 10px;
+}
+.about-right .bars::before {
+    content: '';
+    position: absolute;
     height: 100%;
+    background-color:#0ef;
 }
-.about .left{
-text-align: center;
-margin: auto;
-padding: 1rem;
-max-width: 350px;
+.about-right .html::before {
+    width: 90%;
 }
-.about p{
-    margin: 1.2rem 0;
+
+.about-right .css::before {
+    width: 80%;
 }
-.about .right{
-    max-width: 700px;
+
+.about-right .js::before {
+    width: 75%;
 }
-.right .img-container{
+.about-right .react::before {
+    width: 70%;
+}
+.about-right .python::before {
+    width: 60%;
+}
+
+@media screen and (max-width: 740px) {
     
-    text-align: center;
-}
-.right .img{
-    /* max-width: 700px;
-  max-height: 700px; */
-  width:650px;
-  height:500px;
-  margin: 0 0rem 0 0;
-}
-@media screen and (max-width:640px) {
-    .right .img{
-        margin: 0 0 0 12px;
-     
+    .about-right {
+        flex: 1;
+        margin-left: 10px;
+         color:#fff;
+    }
+    .skills {
+        width: 95%;
+        
+        margin: 0px 0px;
+        padding: 0px;
     }
 }
-
-
