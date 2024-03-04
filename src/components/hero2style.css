@@ -33,7 +33,7 @@
 }
 .hero-img p{
     font-size: 18px;
-    color: aqua;
+    color: #fff;
 }
 @media screen  and (max-width:640px){
     .hero-img h1{

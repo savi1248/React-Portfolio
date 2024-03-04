@@ -33,9 +33,9 @@ const ProjectCardData = [
  },{
         imgsrc:pro5,
         title:'Portfolio',
-        text:'create a Food restuarant  website customers can order their food and select the menu and contact the owners',
-        view:'https://effulgent-monstera-ce581e.netlify.app/',
-        source:'https://github.com/Martinmanoj-13/insta-clone-project.git'
+        text:'A portfolio website is a curated, online space that showcases your best work. Its one of the most practical and memorable ways to share your work with press potential collaborators or employers.',
+        view:'https://cool-peony-2721c4.netlify.app/',
+        source:'https://github.com/savi1248/React-Portfolio/tree/main'
  }
 ]
 export default ProjectCardData;
