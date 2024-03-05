@@ -8,28 +8,30 @@ const ProjectCardData = [
         imgsrc:pro2,
         title:'Netflix Clone',
         text:'Create a netlix clone Banner cards and slider using Fetch API using Html, css, Javascript, React js.',
-        view:'https://www.youtube.com/watch?v=0h2b4ftbZcU&t=5410s'
+    
+        source:'https://github.com/savi1248/netflixclone'
 },
     {
         imgsrc:pro1,
         title:'Weather App',
         text:'Weather App is the application of science and technology to predict the conditions of the atmosphere for a given location and time.',
-        view:'https://www.youtube.com/watch?v=0h2b4ftbZcU&t=5410s'
+        
+        source:'https://github.com/savi1248/Weather-app-ApI'
 
     },
     {
         imgsrc:pro3,
         title:'Food Resturant',
         text:'create a Food restuarant  website customers can order their food and select the menu and contact the owners',
-        view:'https://effulgent-monstera-ce581e.netlify.app/',
-        source:'https://github.com/Martinmanoj-13/insta-clone-project.git'
+        view:'https://musical-banoffee-7fa5ab.netlify.app/',
+        source:'https://github.com/savi1248/Final_LandingPage'
 
     },{
         imgsrc:pro4,
         title:'BookSky',
         text:'create a Food restuarant  website customers can order their food and select the menu and contact the owners',
-        view:'https://effulgent-monstera-ce581e.netlify.app/',
-        source:'https://github.com/Martinmanoj-13/insta-clone-project.git'
+        view:'https://incandescent-profiterole-66f02a.netlify.app/',
+        source:'https://github.com/savi1248/Booksky-'
  },{
         imgsrc:pro5,
         title:'Portfolio',
