@@ -29,7 +29,7 @@ const ProjectCardData = [
     },{
         imgsrc:pro4,
         title:'BookSky',
-        text:'create a Food restuarant  website customers can order their food and select the menu and contact the owners',
+        text:'create a booksky CRUD web application Using Html, css, Javascript',
         view:'https://incandescent-profiterole-66f02a.netlify.app/',
         source:'https://github.com/savi1248/Booksky-'
  },{
