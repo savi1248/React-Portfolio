@@ -15,9 +15,8 @@ const ProjectCardData = [
         imgsrc:pro1,
         title:'Weather App',
         text:'Weather App is the application of science and technology to predict the conditions of the atmosphere for a given location and time.',
-        
+        view:'https://playful-heliotrope-1202ba.netlify.app/',
         source:'https://github.com/savi1248/Weather-app-ApI'
-
     },
     {
         imgsrc:pro3,

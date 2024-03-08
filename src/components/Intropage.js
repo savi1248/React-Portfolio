@@ -19,7 +19,7 @@ const Intropage = () => {
                         </p>
                         <div >
                             
-                            <a href='https://drive.google.com/file/d/19NzqdJBaZgUwYiEKWMAoGM9QZ5lIQjS6/view?usp=drivesdk' className='btn'>CV Download</a>
+                            <a href='https://drive.google.com/file/d/1wHxn4Ljeodw5keXGqpsgY1M6kBEsOFT8/view?usp=drivesdk' className='btn'>CV Download</a>
                             
                             <Link to='/about' className='btn btn-light'> About me</Link>
                         </div>
