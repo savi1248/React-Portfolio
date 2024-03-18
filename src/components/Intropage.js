@@ -15,11 +15,12 @@ const Intropage = () => {
                             I'm <span>savitha<br /></span>Web Developer
                         </h1>
                         <p className='description'>
-                            As a Passionate Front-End Developer with a strong Knowledge in web development, user interface design, HTML, CSS, Bootstrap, JavaScript and React.js. I bring valuable internship experience in creating responsive and user-friendly interfaces.
+                        Experienced in testing domains with a passion for frontend development. I am seeking to transition into a front-end developer role. I am proficient in HTML, CSS, Bootstrap, JavaScript (including ES6), and React JS. I bring valuable internship experience for creating user-friendly and responsive web interfaces.    
+
                         </p>
                         <div >
                             
-                            <a href='https://drive.google.com/file/d/1wHxn4Ljeodw5keXGqpsgY1M6kBEsOFT8/view?usp=drivesdk' className='btn'>CV Download</a>
+                            <a href='https://drive.google.com/file/d/1yWTjjqYrl1gXYszg3tcqlCivnINnU1IT/view?usp=drivesdk' target='_blank'   className='btn'>CV Download</a>
                             
                             <Link to='/about' className='btn btn-light'> About me</Link>
                         </div>
