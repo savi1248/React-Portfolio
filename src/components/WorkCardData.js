@@ -34,7 +34,7 @@ const ProjectCardData = [
  },{
         imgsrc:pro5,
         title:'Portfolio',
-        text:'A portfolio website is a curated, online space that showcases your best work. Its one of the most practical and memorable ways to share your work with press potential collaborators or employers.',
+        text:'Develop a  Responsive portfolio website using Html, css, javascript, React js. covered the concepts like props, state, hooks and Form validation using usestate hook.',
         view:'https://savitha-portfolio.netlify.app',
         source:'https://github.com/savi1248/React-Portfolio/tree/main'
  }

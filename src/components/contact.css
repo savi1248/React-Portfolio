@@ -1,0 +1,55 @@
+/* body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+   padding: 40px;
+}
+
+label {
+    font-size: 18px;
+}
+input {
+    width: 250px;
+    padding: 8px;
+    display: flex;
+    margin: 5px 0px 10px 0px;
+    align-items: center;
+}
+
+button {
+    margin-top: 5px;
+    width: 270px;
+    padding: 5PX;
+    background-color: rgb(51, 51, 232);
+    border: 0;
+    font-size: medium;
+    color: azure;
+}
+p{
+    color: red;
+}
+.success{
+    color: rgb(6, 6, 6);
+   text-align: center;
+    font-size: 18px;
+    background-color: aquamarine;
+   
+   
+    padding: 5px;
+    margin: 5px 0px 15px 60px;
+   
+}
+
+
+
+::placeholder {
+    color: grey;
+
+} */

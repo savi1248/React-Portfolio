@@ -1,20 +1,20 @@
 .form-bar {
     text-align: center;
-   
+
 }
 
 .form-bar .hr {
-    border: 1px solid white ;
-    
-  margin-left: 40%;
-  
+    border: 1px solid grey;
+
+    margin-left: 40%;
+
     width: 20%;
     opacity: .4;
-    
+
 }
 
 label {
-    color: #fff;
+    color: black;
     margin-bottom: 0.5rem;
     font-size: 20px;
     font-weight: 500;
@@ -23,17 +23,41 @@ label {
 form {
     display: flex;
     flex-direction: column;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     max-width: 500px;
-    margin: auto;
+
+    margin: 60px auto;
+    background-color: #797777;
+    /* margin-bottom: 30px; */
+
+
 }
 
 form input,
 form textarea {
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
     padding: 5px 10px;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.1);
-    color: #f4f4f4;
+
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.success {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    margin-left: 40%;
+    padding: 10px 30px;
+}
+
+@media screen and (max-width:640px) {
+    .success {
+        margin-left:15%;
+        padding: 10px;
+    }
+
 }
